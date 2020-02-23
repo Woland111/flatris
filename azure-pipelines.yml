@@ -26,5 +26,4 @@ steps:
   displayName: 'my build task'
 
 - task: PublishBuildArtifact@1
-  artifactName: 'drop'
   displayName: 'publish artifact'
