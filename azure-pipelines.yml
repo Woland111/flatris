@@ -24,3 +24,7 @@ steps:
     echo message from my new build task - line 1
     echo message from my new build task - line 2
   displayName: 'my build task'
+
+- task: PublishBuildArtifact@1
+  artifactName: 'drop'
+  displayName: 'publish artifact'
