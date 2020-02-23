@@ -25,4 +25,5 @@ steps:
     echo message from my new build task - line 2
   displayName: 'my build task'
   
-- script: PublishBuildArtifacts@1
+- task: PublishBuildArtifacts@1
+
